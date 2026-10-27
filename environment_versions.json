@@ -1,0 +1,16 @@
+{
+  "python": "3.14.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "joblib": "1.6.0",
+    "streamlit": "1.66.0",
+    "shap": "0.54.1"
+  },
+  "data_sha256": "b7194d5038cf6dfd32a9a0cff9e4d802ce66f6b3dd4c9663188a79c3ec1c9c0e",
+  "selection_rule": "lowest validation MAE across model families and configurations",
+  "test_rule": "complete unseen station IDs, seed 42"
+}

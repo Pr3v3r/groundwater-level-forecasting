@@ -1,0 +1,245 @@
+[
+  {
+    "horizon_days": 30,
+    "model": "Linear Regression",
+    "configuration": "baseline",
+    "threshold_50": 0.5050000000000003,
+    "threshold_85": 2.0725000000000007,
+    "accuracy": 0.1797997589691295,
+    "balanced_accuracy": 0.2958649935690349,
+    "macro_f1": 0.1697183737004981,
+    "confusion_matrix": [
+      [
+        626,
+        1743,
+        8963
+      ],
+      [
+        357,
+        925,
+        5627
+      ],
+      [
+        307,
+        698,
+        2328
+      ]
+    ]
+  },
+  {
+    "horizon_days": 30,
+    "model": "Random Forest",
+    "configuration": "depth12_90trees",
+    "threshold_50": 0.5050000000000003,
+    "threshold_85": 2.0725000000000007,
+    "accuracy": 0.44966162973950125,
+    "balanced_accuracy": 0.389825897986144,
+    "macro_f1": 0.39364307558151923,
+    "confusion_matrix": [
+      [
+        6083,
+        4472,
+        777
+      ],
+      [
+        3305,
+        2916,
+        688
+      ],
+      [
+        1315,
+        1316,
+        702
+      ]
+    ]
+  },
+  {
+    "horizon_days": 30,
+    "model": "XGBoost",
+    "configuration": "depth4_200trees",
+    "threshold_50": 0.5050000000000003,
+    "threshold_85": 2.0725000000000007,
+    "accuracy": 0.38894039121164364,
+    "balanced_accuracy": 0.34879465726288433,
+    "macro_f1": 0.34153176335524144,
+    "confusion_matrix": [
+      [
+        4584,
+        4841,
+        1907
+      ],
+      [
+        2754,
+        3222,
+        933
+      ],
+      [
+        1062,
+        1686,
+        585
+      ]
+    ]
+  },
+  {
+    "horizon_days": 60,
+    "model": "Linear Regression",
+    "configuration": "baseline",
+    "threshold_50": 0.9000000000000001,
+    "threshold_85": 3.6125000000000007,
+    "accuracy": 0.2549467670734874,
+    "balanced_accuracy": 0.36213318808863715,
+    "macro_f1": 0.25218337626262166,
+    "confusion_matrix": [
+      [
+        891,
+        2612,
+        6096
+      ],
+      [
+        702,
+        2177,
+        4071
+      ],
+      [
+        121,
+        744,
+        1841
+      ]
+    ]
+  },
+  {
+    "horizon_days": 60,
+    "model": "Random Forest",
+    "configuration": "depth12_90trees",
+    "threshold_50": 0.9000000000000001,
+    "threshold_85": 3.6125000000000007,
+    "accuracy": 0.470059724746819,
+    "balanced_accuracy": 0.4374626443747845,
+    "macro_f1": 0.43381278628200093,
+    "confusion_matrix": [
+      [
+        4679,
+        3821,
+        1099
+      ],
+      [
+        2595,
+        3504,
+        851
+      ],
+      [
+        746,
+        1092,
+        868
+      ]
+    ]
+  },
+  {
+    "horizon_days": 60,
+    "model": "XGBoost",
+    "configuration": "depth4_200trees",
+    "threshold_50": 0.9000000000000001,
+    "threshold_85": 3.6125000000000007,
+    "accuracy": 0.42046221760581665,
+    "balanced_accuracy": 0.3784731023796697,
+    "macro_f1": 0.37579980424968573,
+    "confusion_matrix": [
+      [
+        3868,
+        4976,
+        755
+      ],
+      [
+        2595,
+        3678,
+        677
+      ],
+      [
+        677,
+        1479,
+        550
+      ]
+    ]
+  },
+  {
+    "horizon_days": 90,
+    "model": "Linear Regression",
+    "configuration": "baseline",
+    "threshold_50": 1.2749999999999995,
+    "threshold_85": 4.738549999999996,
+    "accuracy": 0.27749838813668604,
+    "balanced_accuracy": 0.3636338848921407,
+    "macro_f1": 0.27377153947810035,
+    "confusion_matrix": [
+      [
+        903,
+        2297,
+        4203
+      ],
+      [
+        510,
+        1590,
+        3328
+      ],
+      [
+        312,
+        556,
+        1811
+      ]
+    ]
+  },
+  {
+    "horizon_days": 90,
+    "model": "Random Forest",
+    "configuration": "depth12_90trees",
+    "threshold_50": 1.2749999999999995,
+    "threshold_85": 4.738549999999996,
+    "accuracy": 0.4399097356544165,
+    "balanced_accuracy": 0.4051973773720459,
+    "macro_f1": 0.4059727747302068,
+    "confusion_matrix": [
+      [
+        3908,
+        2515,
+        980
+      ],
+      [
+        2512,
+        2118,
+        798
+      ],
+      [
+        856,
+        1026,
+        797
+      ]
+    ]
+  },
+  {
+    "horizon_days": 90,
+    "model": "XGBoost",
+    "configuration": "depth4_200trees",
+    "threshold_50": 1.2749999999999995,
+    "threshold_85": 4.738549999999996,
+    "accuracy": 0.44590586718246294,
+    "balanced_accuracy": 0.3985273719819902,
+    "macro_f1": 0.4035412670734558,
+    "confusion_matrix": [
+      [
+        3856,
+        3111,
+        436
+      ],
+      [
+        2403,
+        2473,
+        552
+      ],
+      [
+        983,
+        1109,
+        587
+      ]
+    ]
+  }
+]

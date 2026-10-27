@@ -1,9 +1,0 @@
-{
-  "rows": 416951,
-  "stations": 6440,
-  "start_date": "1994-01-05",
-  "end_date": "2025-09-27",
-  "missing_values": 0,
-  "median_records_per_station": 39.0,
-  "median_gap_days": 61.0
-}
